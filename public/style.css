@@ -1,0 +1,95 @@
+body {
+    padding: 50px;
+    background-color: #e9ecef!important;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.container {
+    width: 600px !important;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+
+.main-header {
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.main-header :nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-header a , .back {
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.next {
+    display:flex;
+    justify-content: space-between;
+}
+
+.auth-name {
+    color:brown;
+}
+
+/* ! Post page styles */
+
+.posts-form {
+    padding: 20px;
+}
+
+.post-container {
+    margin-top:50px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 30%;
+    background-color: rgb(209, 250, 236);
+    border-radius:10px;
+    padding:10px;
+}
+
+.post-container :first-child {
+    text-align: center;
+}
+
+
+
+.add-btn {
+    width:10%;
+    display:block;
+    font-weight: bold !important;
+}
+
+.search-bar {
+    display:flex;
+    max-width: 100%;
+}
+
+.search-bar :nth-child(3) {
+    width: 20%;
+    margin-left: 50px;
+}
+
+.post-buttons {
+    display:flex;
+    justify-content: center;
+}
+
+.post-buttons :first-child {
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #f1e3d3 !important;
+}
